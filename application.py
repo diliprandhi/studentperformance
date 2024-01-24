@@ -8,7 +8,7 @@ application=Flask(__name__)
 app=application
 '''@app.route('/')
 def index():
-    return render_template('index.html')'''
+    return render_template('index.html')''' ## to directly get prediction page
 
 @app.route('/',methods=['GET','POST'])
 def predict_datapoint():
